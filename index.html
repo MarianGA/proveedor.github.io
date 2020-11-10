@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+
+<html> 
+
+    <head> 
+
+        <title>Proveedores</title> 
+
+        <meta charset="UTF-8"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <link rel="stylesheet" href="css/estilos.css"> 
+
+    </head> 
+
+    <body> 
+
+        <header> 
+
+            <h1>Proveedores</h1> 
+
+        </header> 
+
+        <p><em>el borde azul indica obligatorio</em></p> 
+
+             
+
+        <form id="forma" action="javascript:procesa()"> 
+
+           <label> Clave:  
+
+               <input type="Text" name="clave"  size="16" placeholder="1 a 10 digitos" required > <!--etiqueta input es metodo de entrada--> 
+
+     </label><p> 
+
+     <br><output id="salidaClave"></output></p> 
+
+     <label> Nombre:  
+
+         <input type="Text" name="nombre"  size="16" placeholder="1 a 50 caracteres" required> 
+
+     </label><p> 
+
+     <br><output id="salidaNombre"></output></p> 
+
+      <label> Telefono:  
+
+          <input type="tel" name="telefono" size="16" placeholder="10 a 14 ditgitos" > <!--etiqueta input es metodo de entrada--> 
+
+     </label><p> 
+
+     <br><output id="salidaTelefono"></output></p> 
+
+      <label accesskey="F"> 
+
+                    Fecha: 
+
+                    <input name="fecha" type="date" autofocus required 
+
+                           max="2021-01-24" min="2020-01-24"> 
+
+                </label><p> 
+
+                <br><output id="salidaFecha"></output></p> 
+
+                <br><br> 
+
+                 
+
+            <input type="submit" value="Procesar" accesskey="P"> 
+
+             
+
+            <input type="reset" value="Limpiar" accesskey="P"> 
+
+            <br> <br> 
+
+        </form 
+
+         
+
+        <footer> 
+
+            <br> 
+
+            Copyright Marian Araceli Garía Alvarado  
+
+        </footer> 
+
+        <script src="js/Salida.js"></script> 
+
+    </body> 
